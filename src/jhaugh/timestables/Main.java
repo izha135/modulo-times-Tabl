@@ -58,9 +58,7 @@ import java.text.DecimalFormat;
             primaryStage.setScene(scene_);
             primaryStage.show();
 
-            // TODO: Add a button for starting the visualization
-            //  and one to pause the visualization. Don't forget
-            //  to add them to controls VBox below. DONE
+
 
 
 
@@ -115,7 +113,6 @@ import java.text.DecimalFormat;
             //Button pauseButton = new Button("Pause");
             // Add all controls to the vertical box
 
-            // TODO: Add run and pause buttons to this list
 
             controls.getChildren().addAll(
                     ttnBox, stepNumBox, delayBox,
@@ -173,8 +170,6 @@ import java.text.DecimalFormat;
             }
             MyAnimationTimer timer = new MyAnimationTimer();
 
-            // TODO: Add the on click events and corresponding implementations
-            //  for the run button and pause button.
 
             runButton.setOnAction(event -> {
                 timer.start();
