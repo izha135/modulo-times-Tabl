@@ -1,0 +1,6 @@
+# Default ignored files
+.idea/
+*.class
+out/
+/.idea/workspace.xml
+project1.iml
